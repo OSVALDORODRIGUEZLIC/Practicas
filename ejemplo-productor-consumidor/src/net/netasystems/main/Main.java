@@ -3,8 +3,18 @@ package net.netasystems.main;
 import net.netasystems.granja.Agricultor;
 import net.netasystems.granja.Cochinito;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Main.
+ */
 public class Main {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 * @throws InterruptedException the interrupted exception
+	 */
 	public static void main(String[] args) throws InterruptedException {
 		System.out.println("Ejemplo de productor-consumidor");
 		Agricultor agricultor = new Agricultor();
