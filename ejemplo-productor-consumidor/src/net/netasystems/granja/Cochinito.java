@@ -2,8 +2,15 @@ package net.netasystems.granja;
 
 import java.io.Serializable;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Cochinito.
+ */
 public class Cochinito implements Runnable {
 
+	/**
+	 * Consume maiz.
+	 */
 	public void consumeMaiz() {
 		Maiz maizParaConsumir = Parcela.getMaiz();
 		if(maizParaConsumir == null) {
@@ -28,6 +35,9 @@ public class Cochinito implements Runnable {
 		}
 	}
 
+	/* (non-Javadoc)
+	 * @see java.lang.Runnable#run()
+	 */
 	@Override
 	public void run() {
 		while(true) {
